@@ -1,0 +1,88 @@
+.App {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu button {
+    margin-bottom: 10px;
+}
+
+.content {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.shopping-cart {
+    width: 200px;
+}
+
+.add-recipe-form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.add-recipe-form input,
+.add-recipe-form textarea,
+.add-recipe-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.recipe-list {
+    max-width: 400px;
+}
+
+.recipe-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    margin-bottom: 10px;
+}
+
+.plan-schedule {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.schedule-input {
+    margin-bottom: 10px;
+}
+
+.schedule-input label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.schedule-input input[type="text"] {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.saved-schedule {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.footer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+
+
+

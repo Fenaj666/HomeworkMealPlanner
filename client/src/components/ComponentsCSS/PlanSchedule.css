@@ -1,0 +1,77 @@
+.plan-schedule {
+    margin-top: 20px;
+}
+
+.plan-schedule h2 {
+    margin-bottom: 10px;
+}
+
+.schedule-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.schedule-day {
+    flex: 1;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.meal-input {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.meal-input label {
+    margin-right: 10px;
+}
+
+.meal-input input {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.saved-schedule {
+    margin-top: 20px;
+}
+
+.saved-schedule h3 {
+    margin-bottom: 10px;
+}
+
+.saved-schedule .schedule-container {
+    display: flex;
+}
+
+.saved-schedule .schedule-day {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.meal-output p {
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+

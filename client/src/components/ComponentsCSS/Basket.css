@@ -1,0 +1,87 @@
+.basket-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-ingredient {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.add-ingredient input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+.basket-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.basket-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.remove-button,
+.purchase-button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.remove-button:hover {
+    background-color: #c82333;
+}
+
+.purchase-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.purchase-button:hover {
+    background-color: #218838;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.purchased {
+    background-color: #d4edda;
+    color: #155724;
+}
+

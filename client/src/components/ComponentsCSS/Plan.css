@@ -1,0 +1,64 @@
+.plan {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+    margin-bottom: 15px;
+}
+
+.calorie-input {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.calorie-input label {
+    margin-right: 10px;
+}
+
+.calorie-input input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.calorie-input button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calorie-input button:hover {
+    background-color: #0056b3;
+}
+
+.plan p {
+    margin-top: 10px;
+}
+
+.calorie-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.calorie-info span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.success {
+    color: #28a745;
+}
